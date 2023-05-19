@@ -74,16 +74,10 @@ span{
         }
         
         
-        {
-          color: rgb(251, 142, 142);
-        }
-        
         
         .anchor:hover {
-          color: rgb(253, 60, 131);
-          background-color: white;
-          
-     
+          color: rgb(255, 204, 0);
+          background-color: rgb(171, 25, 208);
      }
 
 nav ul{
@@ -100,25 +94,44 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
      
 }
 a.action,a:hover{
-     color: rgb(255, 204, 0);
+     color: rgb(0, 0, 0);
+     
     
 }
 a.about,a:hover{
-    color: rgb(255, 204, 0);
+    color: rgb(0, 0, 0);
      
 }
 a.service,a:hover{
-     color: rgb(255, 204, 0);
+     color: rgb(0, 0, 0);
 
 }
 a.feedback,a:hover{
-     color: rgb(255, 204, 0);
+     color: rgb(0, 0, 0);
      
+}
+.anchor{
+     text-decoration: none;
+     background-color: black;
+     padding: 1px 10px;
+     color: wheat;
+     font-weight: 700;
+     border-radius: 100px;
+     
+}
+label {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 3%;
+  
 }
 
 
