@@ -8,14 +8,21 @@
 .name{
      
    margin-left: 8%;
-   margin-top: 15%;
+   margin-top: 25%;
 }
 span{
 
      color: rgb(255, 204, 0);
 }
 
-
+.shape{
+     padding: 100px;
+     max-width: 100%;
+     max-height: 100%;
+     position: absolute;
+     bottom: 0;
+     height: 80%;
+}
      
 
 
@@ -32,20 +39,39 @@ span{
      position: absolute;
      bottom: 0;
      right: 100px;
+    
+  
   
 
 }
 .boy{
      
 
-     padding: 100px;
-     width: 80% ;
-     height: auto;
-     position: absolute;
-     bottom: 0;
-     
+   height: 90%;
+   position: absolute;
+   bottom: 0%;
+   right: -60px;
+   
+ 
      
 }
+.anchor{
+      color:  rgb(255, 204, 0);
+        }
+        
+        /* visited link */
+        a:visited {
+          color: rgb(251, 142, 142);
+        }
+        
+        
+        .anchor:hover {
+          color: rgb(253, 60, 131);
+          background-color: white;}
+        
+
+     
+
 
 
 
