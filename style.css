@@ -15,8 +15,6 @@ span{
      color: rgb(255, 204, 0);
 }
 
-
-
 nav{
      display: flex;
      width: 84%;
@@ -26,18 +24,6 @@ nav{
      justify-content: space-between;
      color: black;
 
-
-}
-nav ul li{
-     display: inline-block;
-     list-style: none;
-     margin: 10px 20px;
-
-}
-nav ul li a{
-     text-decoration: none;
-     color: black;
-     font-weight: bold;
 
 }
 
@@ -64,6 +50,25 @@ nav ul li a{
      bottom: 0;
      
      
+}
+.hero{
+     color: black;
+     font-weight: bold;
+     text-decoration:none ;
+     display:inline-block ;
+
+}
+.hero:hover{
+     color: rgba(237, 203, 7, 0.932);
+}
+.zero{
+     color: black;
+     font-weight: bold;
+     text-decoration:none ;
+     display:inline-block ;
+}
+.zero:hover{
+     color: rgba(237, 203, 7, 0.932);
 }
 
 
