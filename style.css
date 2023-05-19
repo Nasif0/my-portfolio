@@ -15,17 +15,12 @@ span{
      color: rgb(255, 204, 0);
 }
 
-nav{
-     display: flex;
-     width: 84%;
-     margin: auto;
-     padding: 20px 0;
-     align-items: center;
-     justify-content: space-between;
-     color: black;
+
+     
 
 
-}
+
+
 
 
 
@@ -50,25 +45,6 @@ nav{
      bottom: 0;
      
      
-}
-.hero{
-     color: black;
-     font-weight: bold;
-     text-decoration:none ;
-     display:inline-block ;
-
-}
-.hero:hover{
-     color: rgba(237, 203, 7, 0.932);
-}
-.zero{
-     color: black;
-     font-weight: bold;
-     text-decoration:none ;
-     display:inline-block ;
-}
-.zero:hover{
-     color: rgba(237, 203, 7, 0.932);
 }
 
 
