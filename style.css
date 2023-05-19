@@ -1,10 +1,11 @@
-.backround-image{
+.baground-image{
      background-image: url(image/bacground-colour.png);
-     background-repeat: no-repeat;
      background-attachment: fixed;
+     background-repeat: no-repeat;
      background-size: 100% 100%;
      font-family: 'Poppins', sans-serif;
 }
+
 .name{
      
    margin-left: 8%;
@@ -24,14 +25,6 @@ span{
      height: 80%;
 }
      
-
-
-
-
-
-
-
-
 .image{
 
      width: 40%;
@@ -39,11 +32,7 @@ span{
      position: absolute;
      bottom: 0;
      right: 100px;
-    
-  
-  
-
-}
+   }
 .boy{
      
 
@@ -51,12 +40,10 @@ span{
    position: absolute;
    bottom: 0%;
    right: -60px;
-   
- 
-     
 }
 .anchor{
       color:  rgb(255, 204, 0);
+      
         }
         
         /* visited link */
@@ -68,6 +55,10 @@ span{
         .anchor:hover {
           color: rgb(253, 60, 131);
           background-color: white;}
+
+
+
+      
         
 
      
