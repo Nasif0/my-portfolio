@@ -1,15 +1,25 @@
+*{
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+     font-family: 'Poppins', sans-serif;
+}
+
+
 .baground-image{
      background-image: url(image/bacground-colour.png);
      background-attachment: fixed;
      background-repeat: no-repeat;
      background-size: 100% 100%;
-     font-family: 'Poppins', sans-serif;
 }
+
+    
 
 .name{
      
-   margin-left: 8%;
-   margin-top: 25%;
+   margin-left: 5%;
+   margin-top: 14%;
 }
 span{
 
@@ -23,6 +33,7 @@ span{
      position: absolute;
      bottom: 0;
      height: 80%;
+     right: -550px;
 }
      
 .image{
@@ -33,28 +44,84 @@ span{
      bottom: 0;
      right: 100px;
    }
+   .image img{
+  
+     transform: translateX(-50%);
+     transition: bottom 1s, left 1s;
+     
+   }
+   .image:hover .shape{
+     bottom: 20px;
+
+   }
+   .image:hover .boy{
+     bottom: 10px;
+
+   }
+
+
 .boy{
      
 
    height: 90%;
    position: absolute;
    bottom: 0%;
-   right: -60px;
+   right: -300px;
 }
 .anchor{
       color:  rgb(255, 204, 0);
       
         }
         
-        /* visited link */
-        a:visited {
+        
+        {
           color: rgb(251, 142, 142);
         }
         
         
         .anchor:hover {
           color: rgb(253, 60, 131);
-          background-color: white;}
+          background-color: white;
+          
+     
+     }
+
+nav ul{
+     float: right;
+     margin-right: 20px;
+  
+     
+}
+nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+     
+}
+a.action,a:hover{
+     color: rgb(255, 204, 0);
+    
+}
+a.about,a:hover{
+    color: rgb(255, 204, 0);
+     
+}
+a.service,a:hover{
+     color: rgb(255, 204, 0);
+
+}
+a.feedback,a:hover{
+     color: rgb(255, 204, 0);
+     
+}
+
+
 
 
 
