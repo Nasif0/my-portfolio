@@ -98,21 +98,24 @@ nav ul li a{
     font-weight: bold;
      
 }
+nav ul li a:hover{
+     color: red;
+}
 a.action,a:hover{
-     color: rgb(0, 0, 0);
+     color: rgb(255, 12, 12);
      
     
 }
 a.about,a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
      
 }
 a.service,a:hover{
-     color: rgb(0, 0, 0);
+     color: rgb(248, 0, 0);
 
 }
 a.feedback,a:hover{
-     color: rgb(0, 0, 0);
+     color: rgb(255, 6, 6);
      
 }
 .anchor{
